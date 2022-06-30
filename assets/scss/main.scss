@@ -1,0 +1,19 @@
+@import '../fonts/stylesheet.css';
+@import '../scss/plugins/normalize.css';
+
+::-webkit-scrollbar { width: 0; }
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "TT Firs Neue", Arial, serif;
+  color: #FBFCFE;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
